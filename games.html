@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Games — Conamon Project</title>
+  <meta name="description" content="Browse every game from Conamon Project: Stop The Game (released), Conamon and Stomp Blocks (in development).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.conamonproject.com/games.html">
+  <link rel="alternate" hreflang="en" href="https://www.conamonproject.com/games.html?lang=en">
+  <link rel="alternate" hreflang="es" href="https://www.conamonproject.com/games.html?lang=es">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Conamon Project">
+  <meta property="og:title" content="All Games — Conamon Project">
+  <meta property="og:description" content="Browse every game from Conamon Project: Stop The Game, Conamon and Stomp Blocks.">
+  <meta property="og:url" content="https://www.conamonproject.com/games.html">
+  <meta property="og:image" content="https://www.conamonproject.com/Assets/stop-the-game/images/Landscape-16.9-1920x1080.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%AE%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <script>window.BASE = '';</script>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 12h4m-2-2v4m7-3h.01M18 13h.01M17.32 5H6.68a4 4 0 0 0-3.98 3.59C2.6 9.42 2 14.46 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.54-.6-6.58-.68-7.26A4 4 0 0 0 17.32 5z"/></svg>
+        Conamon Project
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <div class="nav-dropdown nav-dropdown-games" data-nav-games>
+          <a href="games.html" class="nav-dropdown-link" data-i18n="nav.games">Games</a>
+          <button type="button" class="nav-dropdown-caret" aria-expanded="false" aria-haspopup="true" aria-label="Show games list">
+            <svg class="caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="dropdown-menu" data-nav-games-menu></div>
+        </div>
+
+        <a href="index.html#team" data-i18n="nav.ourTeam">Team</a>
+        <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
+
+        <div class="nav-dropdown">
+          <button type="button" aria-expanded="false" aria-haspopup="true">
+            <span id="langCurrent">English</span>
+            <svg class="caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="dropdown-menu">
+            <button type="button" class="dropdown-item" data-lang-switch="es"><span>Español</span></button>
+          </div>
+        </div>
+      </nav>
+
+      <button class="hamburger" id="hamburger" type="button" aria-label="Menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero" style="min-height:auto">
+      <div class="container">
+        <h1 data-i18n="catalog.title">All Games</h1>
+        <p class="page-desc" data-i18n="catalog.subtitle">Every world from Conamon Project in one place.</p>
+      </div>
+    </section>
+
+    <section style="padding-top:0" aria-label="Games catalog">
+      <div class="container">
+        <div class="catalog-toolbar">
+          <a class="back-link" href="index.html">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5m6 6-6-6 6-6"/></svg>
+            <span data-i18n="detail.backHome">Back to Home</span>
+          </a>
+          <label class="sort-control">
+            <span data-i18n="catalog.sortBy">Sort by</span>
+            <select id="catalogSort">
+              <option value="featured" data-i18n="catalog.sortFeatured">Featured</option>
+              <option value="name" data-i18n="catalog.sortName">Name (A–Z)</option>
+              <option value="status" data-i18n="catalog.sortStatus">Release status</option>
+            </select>
+          </label>
+        </div>
+        <div class="games-grid" id="catalogGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <h4>Conamon Project</h4>
+          <p data-i18n="footer.about">Conamon Project is an indie studio. We create original, fun games and worlds we would love to live in.</p>
+        </div>
+        <nav aria-label="Footer">
+          <h4 data-i18n="footer.pages">Pages</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" data-i18n="footer.home">Home</a></li>
+            <li><a href="index.html#team" data-i18n="footer.aboutLink">About</a></li>
+            <li><a href="games.html" data-i18n="footer.allGames">All Games</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Games">
+          <h4 data-i18n="nav.games">Games</h4>
+          <ul class="footer-links">
+            <li><a href="games/stop-the-game.html">Stop The Game</a></li>
+            <li><a href="games/conamon.html">Conamon</a></li>
+            <li><a href="games/stomp-blocks.html">Stomp Blocks</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="footer-bottom" data-i18n="footer.rights">© 2026 Conamon Project. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5m-6 6 6-6 6 6"/></svg>
+  </button>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/games.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
