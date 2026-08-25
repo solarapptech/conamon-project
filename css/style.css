@@ -183,7 +183,7 @@ section.hero { padding: 0; }
   letter-spacing: .01em;
 }
 .brand svg { width: 26px; height: 26px; color: var(--accent); }
-.brand-logo { height: 26px; width: auto; display: block; }
+.brand-logo { height: 40px; width: auto; display: block; }
 
 .main-nav { margin-left: auto; display: flex; align-items: center; gap: 6px; }
 .main-nav > a,
