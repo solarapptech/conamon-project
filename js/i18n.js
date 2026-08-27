@@ -35,7 +35,6 @@ const I18N = {
     'team.role.tenubar': 'Programmer & Story Director',
     'team.role.dluci': 'Art Director & Illustrator',
     'team.role.jean': 'Music Composer',
-    'team.role.francisco': 'Sound Effects Composer',
     'team.noPhoto': 'No photo yet',
 
     'contact.title': 'Contact',
@@ -62,7 +61,7 @@ const I18N = {
     'detail.platforms': 'Platforms',
     'detail.platformsValue': 'Web (Browser)',
     'detail.genre': 'Genre',
-    'detail.genreWord': 'Word / Party',
+    'detail.genreWord': 'Word / Party / Multiplayer',
     'detail.tba': 'TBA',
     'detail.descTba': 'Description: TBA',
     'detail.noImage': 'Artwork coming soon',
@@ -116,7 +115,6 @@ const I18N = {
     'team.role.tenubar': 'Programador y Director de Historia',
     'team.role.dluci': 'Directora de Arte e Ilustradora',
     'team.role.jean': 'Compositor de Música',
-    'team.role.francisco': 'Compositor de Efectos de Sonido',
     'team.noPhoto': 'Foto próximamente',
 
     'contact.title': 'Contacto',
@@ -143,7 +141,7 @@ const I18N = {
     'detail.platforms': 'Plataformas',
     'detail.platformsValue': 'Web (Navegador)',
     'detail.genre': 'Género',
-    'detail.genreWord': 'Palabras / Fiesta',
+    'detail.genreWord': 'Palabras / Fiesta / Multijugador',
     'detail.tba': 'Por anunciar',
     'detail.descTba': 'Descripción: Por anunciar',
     'detail.noImage': 'Arte próximamente',
