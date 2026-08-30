@@ -31,7 +31,7 @@ const I18N = {
     'games.tba': 'Description: TBA',
 
     'team.title': 'Our Team',
-    'team.bio': 'Greetings from Conamon Project, Traveler. We are Wizards and Game Devs! Hope you are enjoying your stay here. Take a look at our projects; they are made with love and passion, and of course, magic! We outdo ourselves to bring quality games to the world.',
+    'team.bio': 'Greetings from Conamon Project, fellow traveler! We\'re Mages and game devs. We hope you enjoy your stay here. Check out our projects; they\'re made with love, passion, and of course, magic! We strive to bring quality games to the world.',
     'team.role.tenubar': 'Programmer & Story Director',
     'team.role.dluci': 'Art Director & Illustrator',
     'team.role.jean': 'Music Composer',
@@ -111,7 +111,7 @@ const I18N = {
     'games.tba': 'Descripción: Por anunciar',
 
     'team.title': 'Nuestro Equipo',
-    'team.bio': 'Saludos desde Conamon Project, viajero. ¡Somos magos y desarrolladores de videojuegos! Esperamos que estés disfrutando de tu estancia aquí. Echa un vistazo a nuestros proyectos; están hechos con amor y pasión y, por supuesto, ¡magia! Nos superamos a nosotros mismos para traer al mundo juegos de calidad.',
+    'team.bio': '¡Saludos desde Conamon Project, viajero! Somos magos y desarrolladores de videojuegos. Esperamos que disfrutes de tu estancia aquí. Echa un vistazo a nuestros proyectos; están hechos con amor, pasión y, por supuesto, ¡magia! Nos esforzamos por traer al mundo juegos de calidad.',
     'team.role.tenubar': 'Programador y Director de Historia',
     'team.role.dluci': 'Directora de Arte e Ilustradora',
     'team.role.jean': 'Compositor de Música',
