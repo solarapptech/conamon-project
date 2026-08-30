@@ -31,7 +31,7 @@ const I18N = {
     'games.tba': 'Description: TBA',
 
     'team.title': 'Our Team',
-    'team.bio': 'Greetings from Conamon Project! We are game developers. We create everything with love, passion, and professionalism. We outdo ourselves in every creation to bring quality games to the world.',
+    'team.bio': 'Greetings from Conamon Project, Traveler. We are Wizards and Game Devs! Hope you are enjoying your stay here. Take a look at our projects; they are made with love and passion, and of course, magic! We outdo ourselves to bring quality games to the world.',
     'team.role.tenubar': 'Programmer & Story Director',
     'team.role.dluci': 'Art Director & Illustrator',
     'team.role.jean': 'Music Composer',
@@ -40,7 +40,7 @@ const I18N = {
     'contact.title': 'Contact',
     'contact.text': 'Questions, feedback or just want to say hi? Reach us at',
 
-    'footer.about': 'Conamon Project is an indie studio. We create original, fun games and worlds we would love to live in.',
+    'footer.about': 'Conamon Project is an indie studio formed by magicians. We create original, fun games and worlds we would love to live in.',
     'footer.pages': 'Pages',
     'footer.home': 'Home',
     'footer.aboutLink': 'About',
@@ -111,7 +111,7 @@ const I18N = {
     'games.tba': 'Descripción: Por anunciar',
 
     'team.title': 'Nuestro Equipo',
-    'team.bio': '¡Saludos desde Conamon Project! Somos desarrolloderes de juegos. Creamos todo con amor, pasión y profesionalidad. Nos lucimos en todas nuestras obras para traer al mundo juegos de calidad.',
+    'team.bio': 'Saludos desde Conamon Project, viajero. ¡Somos magos y desarrolladores de videojuegos! Esperamos que estés disfrutando de tu estancia aquí. Echa un vistazo a nuestros proyectos; están hechos con amor y pasión y, por supuesto, ¡magia! Nos superamos a nosotros mismos para traer al mundo juegos de calidad.',
     'team.role.tenubar': 'Programador y Director de Historia',
     'team.role.dluci': 'Directora de Arte e Ilustradora',
     'team.role.jean': 'Compositor de Música',
@@ -120,7 +120,7 @@ const I18N = {
     'contact.title': 'Contacto',
     'contact.text': '¿Preguntas, sugerencias o solo quieres saludar? Escríbenos a',
 
-    'footer.about': 'Conamon Project es un estudio indie. Creamos juegos originales, divertidos y mundos en los que nos encantaría vivir.',
+    'footer.about': 'Conamon Project es un estudio indie formado por magos. Creamos juegos originales, divertidos y mundos en los que nos encantaría vivir.',
     'footer.pages': 'Páginas',
     'footer.home': 'Inicio',
     'footer.aboutLink': 'Nosotros',
