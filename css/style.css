@@ -385,6 +385,30 @@ section.hero { padding: 0; }
   height: auto;
   filter: drop-shadow(0 4px 14px rgba(0, 0, 0, .5));
 }
+.hero-title-wrap {
+  position: relative;
+  width: fit-content;
+}
+.featured-badge {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 16px + clamp(48px, 6vw, 72px) / 2);
+  transform: translateY(50%);
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  font-size: clamp(.6rem, 1.4vw, .75rem);
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: #fff;
+  background: #b8651e;
+  border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: 999px;
+  white-space: nowrap;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .4);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, .5);
+}
 .hero-title {
   font-size: clamp(2.4rem, 6vw, 4.2rem);
   font-weight: 800;
